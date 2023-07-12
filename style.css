@@ -1,9 +1,11 @@
 *{
     margin: 0px;
 }
+
 /* <!-- banner section --> */
 .banner{
     background-color: rgb(237, 193, 200);
+    width: 1525px;
 }
 .banner-text{
     padding: 197px 972px 30px 240px; 
@@ -41,38 +43,10 @@ background: #E55473;
 .banner-img{
 width: 500px;
 height: 600px;
-/* padding: 0px 240px 4017px 1045px; */
 position: absolute;
 top: 50px;
 right: 100px;
 }
-/* <!-- End os Banner section --> */
-/* <!-- start of Our Featured Flowers section --> */
-/* .featured-text{
-    text-align: center;
-}
-.featured-heading{
-    font-size: 50px;
-    padding-top: 100px;
-    padding-bottom: 10px;
-}
-.featured-line{
-    width: 500px;
-    padding-left: 700px;
-    color: rgb(114, 105, 105);
-}
-.featured-image{
-    display: flex;
-    width: 310px;
-height: 428px;
-flex-shrink: 0;
-gap: 300px;
-}
-.featured-img-style{
-    width: 310px;
-    height: 428px;
-    flex-shrink: 0; 
-} */
 .second-width{
     margin: 0 auto;
     text-align: center;
@@ -155,18 +129,38 @@ line-height: 30px;
 padding-left: 490px ;
 padding-bottom: 30px;
 }
+/* start of services */
+.services-img{
+    display: flex;
+    text-align: center;
+    gap: 50px;
+    padding-top: 40px;
+    margin-top: 100px;
+    padding-left: 370px;
+}
+.services{
+    background-color: rgb(174, 172, 172);
+    width: 1180px;
+height: 170px;
+flex-shrink: 0;
+padding-right: 200px;
+text-align: center;
+margin-left: 68px;
+}
+/* end of services */
 /* <!-- start Hot deals section --> */
 .hot-deals{
     background-color: #d2bac9;
     display: flex;
-    width: 1922px;
+    width: 1525px;
     height: 500px;
     margin-top: 100px;
 
 }
 .hot-deals-div{
     text-align: center;
-    padding: 200px 150px;
+    padding-top: 200px;
+    padding-left: 370px;
 }
 .hot-deals-heading{
     color: #272727;
@@ -217,7 +211,8 @@ text-align: center;
 .instagram-name{
     color: #272727;
 text-align: center;
-font-family: Lato;
+
+font-family: 'Belanosima', sans-serif;
 font-size: 40px;
 font-style: normal;
 font-weight: 800;
@@ -233,13 +228,99 @@ font-style: normal;
 font-weight: 400;
 line-height: 30px;
 }
-
+.instagram-img{
+    width: 300px;
+height: 400px;
+flex-shrink: 0;
+}
 /* end of instagram section */
+/* start of best selling product */
+.bs-1, .bs-2{
+    width: 330px;
+    height: 370px;
+}
+.bs-div, .best-selling{
+    text-align: center;
+    
+}
+.bs-div{
+    display: flex;
+    gap: 10px;
+    padding-left: 100px;
+}
+.bs-heading{
+ font-size: 30px;
+ margin-bottom: 5px;
+ padding-top: 30px;
+ 
+}
+.best-selling{
+    margin-top: 100px;
+    background-color: rgba(208, 115, 227, 0.589);
+    width: 1220px;
+    height: 600px;
+    margin-left: 150px;
+}
+.bs-button{
+    display: inline-flex;
+    padding: 10px 20px;
+    align-items: flex-start;
+    gap: 7px;
+    border-radius: 5px;
+    background: #E55473;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.bs-text{
+    margin: 0px;
+    padding: 0px;
+}
+.bs-best{
+    color: green;
+}
+.bs-text-color{
+    color: rgb(164, 162, 162);
+}
+/* End pof best selling product */
+/* start of latest deals section */
+.latest-deals{
+    background-image: url(./Rectangle\ 9.png);
+    width: 1220px;
+height: 449px;
+flex-shrink: 0;
+margin-top: 100px;
+margin-left: 150px;
+}
+.latest-deals-div{
+    text-align: center;
+    padding-top: 150px;
+}
+.latest-deals-headinhg{
+    color: #272727;
+text-align: center;
+font-family: Lato;
+font-size: 40px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+}
+.latest-deals-para{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+font-family: Lato;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px;
+}
+/* End of latest deals section  */
+
 /* <!-- start of footer --> */
 .footer-section{
     background-color: black;
     margin-top: 100px;
-    width: 1922px;
+    width: 1525px;
 height: 200px;
 flex-shrink: 0;
 text-align: center;
@@ -251,7 +332,7 @@ padding-top: 100px;
 .footer-heading{
     color: white;
     padding: 10px;
-    padding-right: 490px;
+    padding-right: 100px;
     font-size: 50px;
 }
 .footer-paragraph {
@@ -265,13 +346,22 @@ padding-top: 100px;
     color: rgba(138, 130, 130, 0.73);
     padding: 10px;
     text-align: center;
-    padding-right: 450px;
+    padding-right: 80px;
 }
-.instagram-img{
-    width: 300px;
-height: 400px;
+.subscribe{
+width: 150px;
+height: 30px;
 flex-shrink: 0;
-gap: 50px;
+border-radius: 8px;
+background: #E55473;
+color: #FFF;
+font-size: 20px;
 }
+.input{
+width: 700px;
+height: 30px;
+flex-shrink: 0;
+}
+
 
 /* <!-- End of footer --> */
